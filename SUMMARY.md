@@ -6,6 +6,7 @@
   * [Mysql 8.0](mysql/mysql-8.0/README.md)
     * [InnoDB 버퍼풀](mysql/mysql-8.0/innodb.md)
     * [리두 로그(Redo Log)](mysql/mysql-8.0/redo-log.md)
+    * [인덱스 페이지](mysql/mysql-8.0/undefined.md)
 * [postgresql](postgresql/README.md)
   * [settings](postgresql/settings.md)
   * [database & table info](postgresql/database-and-table-info.md)
