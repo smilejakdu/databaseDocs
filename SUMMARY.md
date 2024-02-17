@@ -9,6 +9,7 @@
     * [인덱스 페이지](mysql/mysql-8.0/undefined.md)
     * [옵티마이저](mysql/mysql-8.0/undefined-1.md)
     * [Master / Slave 이중화](mysql/mysql-8.0/master-slave.md)
+  * [쿼리](mysql/undefined.md)
 * [postgresql](postgresql/README.md)
   * [settings](postgresql/settings.md)
   * [database & table info](postgresql/database-and-table-info.md)
