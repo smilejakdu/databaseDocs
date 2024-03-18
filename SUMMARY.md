@@ -15,3 +15,5 @@
   * [database & table info](postgresql/database-and-table-info.md)
   * [postgresql 의 특징](postgresql/postgresql.md)
   * [postgresql 덤프](postgresql/postgresql-1.md)
+* [RDBMS](rdbms/README.md)
+  * [innerJoin vs leftJoin](rdbms/innerjoin-vs-leftjoin.md)
