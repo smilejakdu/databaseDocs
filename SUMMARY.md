@@ -20,4 +20,3 @@
     * [where](postgresql/undefined/where.md)
 * [RDBMS](rdbms/README.md)
   * [innerJoin vs leftJoin](rdbms/innerjoin-vs-leftjoin.md)
-* [Page 1](page-1.md)

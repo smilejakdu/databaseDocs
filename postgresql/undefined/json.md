@@ -2,8 +2,6 @@
 
 
 
-
-
 ```sql
 select * from customer_insurance;
 
@@ -37,4 +35,14 @@ FROM
 WHERE
     "customerId" = 1;
 
+```
+
+
+
+빈객체를 제외하고 불러오기
+
+```sql
+SELECT *
+FROM customer_insurance
+WHERE your_json_column <> '{}'::jsonb;
 ```
