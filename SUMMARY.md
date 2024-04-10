@@ -19,5 +19,6 @@
     * [JSON](postgresql/undefined/json.md)
     * [WHERE](postgresql/undefined/where.md)
     * [TO\_CHAR](postgresql/undefined/to\_char.md)
+    * [CONCAT](postgresql/undefined/concat.md)
 * [RDBMS](rdbms/README.md)
   * [innerJoin vs leftJoin](rdbms/innerjoin-vs-leftjoin.md)
