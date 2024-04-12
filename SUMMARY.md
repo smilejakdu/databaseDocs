@@ -20,5 +20,6 @@
     * [WHERE](postgresql/undefined/where.md)
     * [TO\_CHAR](postgresql/undefined/to\_char.md)
     * [CONCAT](postgresql/undefined/concat.md)
+    * [primary key 값 초기화](postgresql/undefined/primary-key.md)
 * [RDBMS](rdbms/README.md)
   * [innerJoin vs leftJoin](rdbms/innerjoin-vs-leftjoin.md)
