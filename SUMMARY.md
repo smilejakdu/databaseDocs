@@ -21,5 +21,6 @@
     * [TO\_CHAR](postgresql/undefined/to\_char.md)
     * [CONCAT](postgresql/undefined/concat.md)
     * [primary key 값 초기화](postgresql/undefined/primary-key.md)
+    * [postgresql 에서 enum 칼럼 변경](postgresql/undefined/postgresql-enum.md)
 * [RDBMS](rdbms/README.md)
   * [innerJoin vs leftJoin](rdbms/innerjoin-vs-leftjoin.md)
