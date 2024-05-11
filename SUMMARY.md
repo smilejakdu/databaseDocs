@@ -2,6 +2,7 @@
 
 * [databaseDocs](README.md)
 * [mysql](mysql/README.md)
+  * [Real MySQL 8.0](mysql/real-mysql-8.0.md)
   * [Mysql 5.7 VS Mysql 8.0](mysql/mysql-5.7-vs-mysql-8.0.md)
   * [Mysql 8.0](mysql/mysql-8.0/README.md)
     * [InnoDB 버퍼풀](mysql/mysql-8.0/innodb.md)
