@@ -2,6 +2,23 @@
 
 
 
+### JSON 필드의 특정 값에 접근하기
+
+```sql
+SELECT data->'name' AS name FROM users;
+SELECT data->'contacts'->>'email' AS email FROM users;
+```
+
+여기서 **`->`** 연산자는 JSON 객체 내부의 JSON 결과를 반환하고, **`->>`** 연산자는 JSON 객체의 텍스트 결과를 반환합니다.
+
+**JSON 배열에서 원소 선택**
+
+```sql
+SELECT data->'tags'->>0 AS first_tag FROM users;
+```
+
+
+
 ```sql
 select * from customer_insurance;
 
