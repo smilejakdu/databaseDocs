@@ -21,11 +21,25 @@ show create table users;
 show create table users;
 
 // created_up, updated_at, deleted_at 테이블 변경
-alter table users add column createdAt datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6);
-alter table users add column updatedAt datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6);
-alter table users add column deletedAt datetime(6) DEFAULT NULL;
+alter table users add column created_at datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6);
+alter table users add column updated_at datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6);
+alter table users add column deleted_at datetime(6) DEFAULT NULL;
 ```
 {% endcode %}
+
+
+
+위의 쿼리는 새롭게 생성하는 쿼리 입니다. 이미 만들어진
+
+created\_at, updated\_at, deleted\_at 을 수정하려면
+
+```sql
+alter table packages modify created_at datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6);
+alter table packages modify updated_at datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6);
+alter table packages modify deleted_at datetime(6) DEFAULT NULL
+```
+
+
 
 ## mysql 시간 검색 및 시간 변경
 
